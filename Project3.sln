@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project3", "Project3\Project3.csproj", "{5F367DE5-A0E5-4F4C-8872-A078361B7E5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDownloading", "WebDownloading\WebDownloading.csproj", "{5EBB3AA5-94C1-4698-A5AE-C440F0CD7DA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryItPage", "requiredSerivices1\TryItPage.csproj", "{680BE770-D538-4A0F-9A19-A5C9A7988BE4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{06B5437B-098F-4C84-9172-0B5634DF47E5} = {06B5437B-098F-4C84-9172-0B5634DF47E5}
+		{5EBB3AA5-94C1-4698-A5AE-C440F0CD7DA1} = {5EBB3AA5-94C1-4698-A5AE-C440F0CD7DA1}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stopwordfilter", "stopwordfilter\stopwordfilter.csproj", "{06B5437B-098F-4C84-9172-0B5634DF47E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReqServices", "ReqServices\ReqServices.csproj", "{0521D382-055E-4D5C-828C-57E6079575BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F367DE5-A0E5-4F4C-8872-A078361B7E5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F367DE5-A0E5-4F4C-8872-A078361B7E5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F367DE5-A0E5-4F4C-8872-A078361B7E5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F367DE5-A0E5-4F4C-8872-A078361B7E5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EBB3AA5-94C1-4698-A5AE-C440F0CD7DA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EBB3AA5-94C1-4698-A5AE-C440F0CD7DA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EBB3AA5-94C1-4698-A5AE-C440F0CD7DA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EBB3AA5-94C1-4698-A5AE-C440F0CD7DA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{680BE770-D538-4A0F-9A19-A5C9A7988BE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{680BE770-D538-4A0F-9A19-A5C9A7988BE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{680BE770-D538-4A0F-9A19-A5C9A7988BE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{680BE770-D538-4A0F-9A19-A5C9A7988BE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06B5437B-098F-4C84-9172-0B5634DF47E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06B5437B-098F-4C84-9172-0B5634DF47E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06B5437B-098F-4C84-9172-0B5634DF47E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06B5437B-098F-4C84-9172-0B5634DF47E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0521D382-055E-4D5C-828C-57E6079575BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0521D382-055E-4D5C-828C-57E6079575BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0521D382-055E-4D5C-828C-57E6079575BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0521D382-055E-4D5C-828C-57E6079575BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A3CC783-0AE3-4B47-99D7-6BD90BD290C6}
+	EndGlobalSection
+EndGlobal
